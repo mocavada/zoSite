@@ -4,5 +4,5 @@
     <jcr:content
         cq:template="/conf/zo/settings/wcm/templates/zo-tester-page"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="zo/components/structure/page"/>
+        sling:resourceType="zo/components/structure/testpage"/>
 </jcr:root>

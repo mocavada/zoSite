@@ -28,7 +28,7 @@ import java.util.*;
         // The resourceType is required if you want Sling to "naturally"
         // expose this model as the exporter for a Resource.
         adaptables = { SlingHttpServletRequest.class},
-        resourceType = "zo/components/structure/page",
+        resourceType = "zo/components/structure/testpage",
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
 )
 @Exporter(name = "jackson", extensions = "json", options = {
