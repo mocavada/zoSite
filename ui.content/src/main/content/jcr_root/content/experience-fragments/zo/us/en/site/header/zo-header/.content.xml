@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-07-09T00:03:21.242-04:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/zo/settings/wcm/templates/empty-experience-fragment"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="ZoHeader"
+        sling:resourceType="zo/components/structure/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <responsivegrid
+                    jcr:created="{Date}2020-07-08T23:33:15.560-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-07-08T23:33:15.560-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <responsivegrid
+                        jcr:created="{Date}2020-07-08T23:58:18.953-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-07-08T23:58:18.953-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="2"/>
+                        </cq:responsive>
+                        <image
+                            jcr:created="{Date}2020-07-09T00:02:31.019-04:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-07-09T00:02:46.081-04:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/image"
+                            fileReference="/content/dam/zo/upload/corona.jpg"
+                            width="200"/>
+                    </responsivegrid>
+                    <responsivegrid_2024413210
+                        jcr:created="{Date}2020-07-08T23:58:23.203-04:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-07-08T23:58:23.203-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="10"/>
+                        </cq:responsive>
+                        <title
+                            jcr:created="{Date}2020-07-09T00:03:03.901-04:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2020-07-09T00:03:21.172-04:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="ZO SITE"
+                            sling:resourceType="zo/components/content/title"
+                            type="h1"/>
+                    </responsivegrid_2024413210>
+                </responsivegrid>
+            </responsivegrid>
+        </root>
+        <cq:metadata jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/zo" mode="merge"/>
+    <filter root="/conf/zo/settings/wcm" mode="merge"/>
+    <filter root="/conf/zo/settings/wcm/templates" mode="merge"/>
+    <filter root="/conf/zo/settings/wcm/templates-types" mode="merge"/>
+    <filter root="/content/zo" mode="merge"/>
+    <filter root="/content/dam/zo" mode="merge"/>
+    <filter root="/content/experience-fragments/zo" mode="merge"/>
+</workspaceFilter>
